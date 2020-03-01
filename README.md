@@ -1,4 +1,4 @@
-# School-Database-System MS SQL Server
+# School-Database-System MS-SQL Server
 The database of the school. <br/>
 Provides some functionalities like: <br/>
 ->data of students and teachers<br/>
