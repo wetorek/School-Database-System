@@ -1,0 +1,7 @@
+CREATE PROCEDURE RESTOREDB
+AS
+EXEC cutConnections
+RESTORE DATABASE Project2  
+   FROM DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\Backup\Project2.bak'
+   WITH REPLACE
+GO 
